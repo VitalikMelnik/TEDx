@@ -1,0 +1,130 @@
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(../open-sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../open-sans/OpenSans-Regular.ttf);
+}
+.title-in-content{
+    margin-left: -55px;
+        font-family: OpenSans-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 30px;
+}
+.text-in-content{
+    font-family: OpenSans-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+.title-for-section{
+    transition: all 0.3s ease;
+    font-family: OpenSans-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    font-size: 40px;
+
+}
+.title-for-section:hover{
+    transition: all 0.3s ease;
+    font-family: OpenSans-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-bottom: 20px;
+    margin-left: 125px;
+
+}
+.title-for-section-2{
+    font-family: OpenSans-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.3s ease;
+    margin-left: 125px;
+    margin-top: 30px;
+    font-size: 40px;
+
+}
+.title-for-section-2:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-left: 155px;
+    margin-top: 30px;
+
+}
+.text-script{
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.text-script-h2{
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+.text-script-h2:hover{
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.text-script-h1{
+    transition: all 0.3s ease;
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.text-script-h1:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.speakers-name{
+    font-family: OpenSans-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.speakers-job{
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #585858;
+    font-size: 15px;
+}
+
+.footer-text li{
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #585858;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.footer-text li:nth-child(1){
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #585858;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.footer-text-2 li:nth-child(1){
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #585858;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+}
+.footer-text li:nth-child(6){
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #585858;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-left: 100px;
+    padding-bottom: 37px;
+}
+.flex-3-footer{
+    float: left;
+    margin-left: -90px;
+}

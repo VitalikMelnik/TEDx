@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header,  main, menu, nav, section, summary {
+    display: block;
+}
+p {
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+    text-justify: auto;
+    max-width: 400px;
+}
+body section {
+    display: block;
+    height: inherit;
+}
+body section div.content {
+    padding: 40px 50px 0;
+    overflow: hidden;
+    height: inherit;
+
+}
+body section#fiolet {
+    background-color: #000000;
+    color: #ffffff;
+    height: 100%;
+
+}
+body section#orange {
+    background-color: #000000;
+    color: #ffffff;
+}
+body section#green {
+    background-color: #000000;
+    color: #ffffff;
+    height: inherit;
+}
+body #fiolet div h1, body #orange div h1, body #white div h1, body #green div h1 {
+    position: relative;
+    left: 500px;
+    right: 0;
+    opacity: 0;
+    max-width: 100%;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+body #fiolet div p, body #orange div p, body #white div p, body #green div p {
+    position: relative;
+    left: 0;
+    top: 800px;
+    opacity: 0;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+body #fiolet:hover h1, body #orange:hover h1, body #white:hover h1, body #green:hover h1 {
+    left: 0;
+    opacity: 1;
+}
+body #fiolet:hover p, body #orange:hover p, body #white:hover p, body #green:hover p {
+    top: 0;
+    opacity: 1;
+}

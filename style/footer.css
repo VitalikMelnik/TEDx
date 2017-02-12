@@ -1,0 +1,71 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(../open-sans/OpenSans-Semibold.ttf);
+}
+hr{
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    border: 0px;
+}
+.hr-sn-footer{
+    width: 70%;
+    float: left;
+    margin-left: 10px;
+}
+.footer{
+    height: inherit;
+}
+.flex-container {
+    display: flex; /* I now declare this as a flex-container */
+    display: -webkit-flex; /* This is the Chrome notation */
+
+    min-height: 150px;
+}
+
+.flex-item {
+    flex: 1;
+    -webkit-flex: 1;
+
+    margin:5px;
+
+    text-align:left;
+}
+.svg-footer{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+}
+.text-in-footer{
+    margin-left: 100px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #585858;
+    font-size: 15px;
+
+
+}
+.center-footer  {
+    margin-top: 37px;
+    font-weight: 600;
+    margin-left: 100px;
+    font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.img-in-footer{
+
+    width: 20px;
+    height: 15px;
+    float: left;
+
+
+}
+.img-div{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 170px;
+}
